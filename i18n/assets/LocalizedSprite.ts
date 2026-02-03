@@ -46,7 +46,6 @@ export class LocalizedSprite extends Component {
             // @ts-ignore
             if (item.language === i18n._language) {
                 // @ts-ignore
-                if(this.sprite == null)return;//防呆sprite沒找到
                 this.sprite.spriteFrame = item.spriteFrame;
                 break;
             }
